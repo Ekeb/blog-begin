@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10% 10% 10%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+.wrapper{
+width: 80%;
+border: 0px solid rgb(197, 33, 33);
+margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rightheader{
+    color: #DA0090;
+    font-size: 25px;
+    text-align: center;
+       
+}
+
+.rightheader p{
+    color: black;
+    font-size: 16px;
+    border:   0px solid salmon;
+    margin-top: -43px; 
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    border-top: 1px solid#DA0090;
+    border-bottom: 1px solid brown;
+    padding: 5px;
+}
+
+ul a{
+    color: black;
+    border: 0px solid blanchedalmond;
+    margin: 15px;
+    padding: 5px;
+}
+
+.links a:hover{
+    padding: 5px;
+    color: greenyellow;
+    background-color: black;   
+}
+
+article{
+    border: 0px solid blue;
+    float: left;
+    margin: 50px 0px;
+
+}
+
+article img{
+    border-radius: 20px;
+    float: left;
+
+}
+
+article p{
+  
+    border: 0px solid blue;
+    margin-left: 270px;
+}
+
+article h2{
+  
+    border: 0px solid blue;
+    margin-left: 270px;
+}    
+
+footer{
+    padding: 50px;
+}
+.line{
+    border-top: 1px solid#DA0090;
+    border-bottom: 1px solid brown;  
+    margin-top: 700px;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding: 3px;
+
+}
+
+footer ul{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    list-style-type: none; 
+}
+
+footer li{
+    display:inline-block;
+}
+
+footer a{
+    margin: -3px;
+
+}
